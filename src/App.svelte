@@ -2,7 +2,9 @@
 </script>
 
 <main>
-  123
+  <p class="text-5xl">
+    123
+  </p>
 </main>
 
 <style>
