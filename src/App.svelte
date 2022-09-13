@@ -1,11 +1,6 @@
-<script lang="ts">
-</script>
-
 <main>
-  <p class="text-5xl">
-    123
-  </p>
+  <SwiperComp></SwiperComp>
 </main>
-
-<style>
-</style>
+<script lang="ts">
+  import SwiperComp from "./lib/SwiperComp.svelte";
+</script>
