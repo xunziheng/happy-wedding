@@ -18,6 +18,7 @@ wx.config({
   signature: '',// 必填，签名
   jsApiList: [] // 必填，需要使用的 JS 接口列表
 });
+//   appId: 'wx6550244a92015fa4', // 必填，公众号的唯一标识
 
 const app = new App({
   target: document.getElementById('app')
