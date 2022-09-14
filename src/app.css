@@ -3,7 +3,7 @@ html body {
   margin: 0;
   position: relative;
   height: 100%;
-  background-color: #eee;
+  background-color: #ffe2e2;
 }
 
 .bg-green {
@@ -14,6 +14,10 @@ html body {
 }
 .bg-blue {
   background-color: blue;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .main-swiper{
