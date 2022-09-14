@@ -4,4 +4,5 @@
 
 <script lang="ts">
   import SwiperComp from "./lib/SwiperComp.svelte";
+  // import './app'
 </script>
