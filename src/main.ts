@@ -1,7 +1,8 @@
 import App from './App.svelte'
-import "tailwindcss/tailwind.css"
+import './reset.css'
 import './app.css'
 import 'swiper/css';
+import 'amfe-flexible'
 
 const app = new App({
   target: document.getElementById('app')
