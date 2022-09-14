@@ -1,4 +1,5 @@
 <Swiper
+  class='main-swiper'
   direction='vertical'
   width={window.innerWidth}
   height={window.innerHeight}
@@ -16,3 +17,6 @@
   import SwiperItem1 from './swiperItems/SwiperItem1.svelte';
   import SwiperItem2 from './swiperItems/SwiperItem2.svelte';
 </script>
+
+<style>
+</style>

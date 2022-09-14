@@ -1,8 +1,9 @@
-import App from './App.svelte'
-import './reset.css'
-import './app.css'
+import App from './App.svelte';
+import 'amfe-flexible';
+import './reset.css';
 import 'swiper/css';
-import 'amfe-flexible'
+import 'swiper/css/navigation';
+import './app.css';
 
 const app = new App({
   target: document.getElementById('app')
