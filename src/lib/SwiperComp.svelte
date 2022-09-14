@@ -20,19 +20,26 @@
   import SwiperItem2 from './swiperItems/SwiperItem2.svelte';
   import { start, stop } from '../app'
 
-  function onInit (e) {
+  function onInit(e) {
     const [swiper, progress] = e.detail;
     window.swiperAni.swiperAnimateCache(swiper);
     window.swiperAni.swiperAnimate(swiper);
+
+    const activeIndex = swiper.activeIndex;
+    toggleAnimationState(activeIndex);
   }
 
-  function onSlideChangeTransitionEnd (e) {
+  function onSlideChangeTransitionEnd(e) {
     const [swiper, progress] = e.detail;
     window.swiperAni.swiperAnimate(swiper);
 
     const activeIndex = swiper.activeIndex;
+    toggleAnimationState(activeIndex);
+  }
+
+  function toggleAnimationState(activeIndex) {
     /** 滑动到特定页面开始下落表情 */
-    if (activeIndex === 1) {
+    if (activeIndex === 0) {
       start();
     } else {
       stop();
