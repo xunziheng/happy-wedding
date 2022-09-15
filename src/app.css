@@ -4,6 +4,7 @@ html body {
   position: relative;
   height: 100%;
   background-color: #ffe2e2;
+  font-family: MaShanZheng-Regular;
 }
 
 .bg-green {
@@ -27,4 +28,9 @@ html body {
 /* svelte/swiper cards 自带的阴影，主动去掉 */
 .swiper-slide-shadow {
   display: none;
+}
+
+@font-face {
+  font-family: MaShanZheng-Regular;
+  src: url('./assets/fonts/MaShanZheng-Regular.ttf');
 }
