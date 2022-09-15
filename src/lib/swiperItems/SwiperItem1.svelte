@@ -1,15 +1,12 @@
 <div class="container">
   <!-- 主题照片 -->
-  <div>
-
-  </div>
   <div
     class="ani text-center love-time"
     swiper-animate-effect="fadeInUp"
     swiper-animate-duration="1s"
     swiper-animate-delay="0.9s"
   >{loveTime}</div>
-  <div class="ani wedding-text">我们结婚啦~</div>
+  <div class="wedding-text">我们结婚啦~</div>
 </div>
 
 <script lang="ts">

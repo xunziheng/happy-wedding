@@ -12,6 +12,9 @@
   <SwiperSlide>
     <SwiperItem2 />
   </SwiperSlide>
+  <SwiperSlide>
+    <SwiperItem3 />
+  </SwiperSlide>
 </Swiper>
 <audio id="bgAudio" autoplay loop>
   <source src={bgAudio} type="audio/mpeg">
@@ -21,6 +24,7 @@
   import { Swiper, SwiperSlide } from 'swiper/svelte';
   import SwiperItem1 from './swiperItems/SwiperItem1.svelte';
   import SwiperItem2 from './swiperItems/SwiperItem2.svelte';
+  import SwiperItem3 from './swiperItems/SwiperItem3.svelte';
   import { start, stop } from '../app'
   import { onMount } from 'svelte';
   import bgAudio from '../assets/audio/bg-audio.mp3'
@@ -76,7 +80,7 @@
   }
 
   onMount(() => {
-    palyAudio();
+    // palyAudio();
   })
 </script>
 
