@@ -16,9 +16,9 @@
     <SwiperItem3 />
   </SwiperSlide>
 </Swiper>
-<audio id="bgAudio" autoplay loop>
+<!-- <audio id="bgAudio" autoplay loop>
   <source src={bgAudio} type="audio/mpeg">
-</audio>
+</audio> -->
 
 <script lang="ts">
   import { Swiper, SwiperSlide } from 'swiper/svelte';
